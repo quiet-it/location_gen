@@ -1,0 +1,42 @@
+#
+FIRST_LETTER = 'B'
+
+#NUMBER OF SECTIONS
+SECTION_START = 3
+SECTION_END = 26
+
+#START AND END OF LOCATIONS
+LOCATION_START = 161
+LOCATION_END = 252
+
+EVEN_ODD = 'odd'
+
+#Position related settings and row headers.
+LOW_POSITION = True
+CLIENT = 'Mack Weldon'
+RESTRICTION = 'Single SKU'
+LOCUS = 'No'
+
+#EXCEL FILE SETTINGS
+# REWRITE = True #IF TRUE IT WILL CREATE NEW FILE, IF FALSE IT WILL ADD NEW SHEET TO EXISTING FILE
+REWRITE = False #IF TRUE IT WILL CREATE NEW FILE, IF FALSE IT WILL ADD NEW SHEET TO EXISTING FILE
+FILE_NAME='Mack_Weldon_Mid_Sec.xlsx'
+
+# SHEET_1_NAME = ''
+# SHEET_2_NAME = ''
+# if EVEN_ODD == 'odd':
+#     SHEET_1_NAME='odd_locations'
+# elif EVEN_ODD == 'all':
+#     SHEET_1_NAME = 'odd_locations'
+#     SHEET_2_NAME =  'even_locations'
+# else:
+    # SHEET_2_NAME = 'even_locations'
+SHEET_NAME='Middle_section'
+COLUMN_SIZE = 22
+
+
+
+
+## TODO: Separate for loop in dedicated function
+# in section_writer function so odd and even numbers
+# can go along
